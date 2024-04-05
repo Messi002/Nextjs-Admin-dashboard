@@ -1,17 +1,42 @@
 .container {
-}
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .container:hover{
+    /* background-color: #2e374a; */
+    background-color: var(--hoverColor);
 
-.texts {
-}
+  }
+  
+  .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .number {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .detail {
+    font-size: clamp(0.6rem, 0.3043rem + 3.4783vw,0.8rem);
+    font-weight: 300;
+  }
+  
+  .positive {
+    color: lime;
+  }
+  
+  .negative {
+    color: red;
+  }
+  
 
-.title {
-}
 
-.number {
-}
-.detail{
-
-}
-
-.positive {
-}
