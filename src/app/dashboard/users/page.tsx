@@ -45,23 +45,23 @@ const Users = () => {
             <td>active</td>
             <td>
               <div className={styles.buttons}>
-              <Link href="/">
-                <button className={`${styles.button} ${styles.view}`}>
-                  View
-                </button>
-              </Link>
+                <Link href="/dashboard/users/1">
+                  <button className={`${styles.button} ${styles.view}`}>
+                    View
+                  </button>
+                </Link>
 
-              <Link href="/">
-                <button className={`${styles.button} ${styles.delete}`}>
-                  Delete
-                </button>
-              </Link>
+                <Link href="/">
+                  <button className={`${styles.button} ${styles.delete}`}>
+                    Delete
+                  </button>
+                </Link>
               </div>
             </td>
           </tr>
         </tbody>
       </table>{" "}
-      <Pagination/>
+      <Pagination />
     </div>
   );
 };

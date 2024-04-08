@@ -29,13 +29,13 @@ const SingleUserPage = () => {
             {/* <option value={`true`} selected="{user.isAdmin}">Yes</option> */}
             {/* <option value={`false`} selected="{!user.isAdmin}">No</option> */}
 
-            <option value={`true`} selected={true}>Yes</option>
-            <option value={`false`} selected={true}>No</option>
+            <option value={`true`} >Yes</option>
+            <option value={`false`} >No</option>
           </select>
           <label>Is Active?</label>
           <select name="isActive" id="isActive">
-            <option value={`true`} selected={true}>Yes</option>
-            <option value={`false`} selected={true}>No</option>
+            <option value={`true`} >Yes</option>
+            <option value={`false`} >No</option>
 
             {/* <option value={`true`} selected="{user.isActive}">Yes</option> */}
             {/* <option value={`false`} selected="{!user.isActive}">No</option> */}
