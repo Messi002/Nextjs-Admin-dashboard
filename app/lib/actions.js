@@ -115,6 +115,8 @@ export const updateProduct = async (formData) => {
       (key) =>
         (updateFields[key] === "" || undefined) && delete updateFields[key]
     );
+    // (updateFields[key] === "" || updateFields[key] === undefined)
+    // 
 
     await Product.findByIdAndUpdate(id, updateFields);
   } catch (err) {
